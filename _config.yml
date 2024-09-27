@@ -23,7 +23,7 @@ email: arirodri2198@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is awesome blog for all people who loves the trips and travel around the world!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://arm-traveler-blog.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: arm_2198
 github_username:  ari-rm21
 
