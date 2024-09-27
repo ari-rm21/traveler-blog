@@ -1,0 +1,21 @@
+---
+layout: default
+title: "home"
+---
+
+<div>
+  <img src="assets/images/hero.jfif" alt="Banner img">
+</div>
+<h1 class="title">Welcome Traveler!</h1>
+<p>
+  If you're seeking expert tips, curated tours, and inspiration for your next adventure, you've come to the right place. We provide comprehensive information on must-see destinations and hidden gems you won't want to miss. Explore each post on our blog for detailed guides, insider advice, and everything you need to make your journey unforgettable.
+</p>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a class="post_links" href="{{ post.url }}">{{ post.title }}</a>
+      <small>Publicado el {{ post.date | date: "%B %d, %Y" }}</small>
+    </li>
+  {% endfor %}
+</ul>
+
